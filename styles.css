@@ -29,4 +29,9 @@ body {
 
 .progress-bar-front {
     position: absolute;
+    height: 4px;
+    width: 50%;
+    background-color: green;
+    border: none;
+    z-index: -1;
 }
