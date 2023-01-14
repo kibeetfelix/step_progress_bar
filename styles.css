@@ -64,4 +64,11 @@ body {
 .step.checked small {
     position: absolute;
     bottom: -20px;
+    font-family: cursive;
+}
+
+.btn {
+    background-color: slateblue;
+    border: none;
+    color: white;
 }
