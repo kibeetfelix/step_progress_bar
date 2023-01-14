@@ -1,11 +1,12 @@
 body {
     margin: 0;
-    background-color: yellow;
     display: flex;
     justify-content: center;
     height: 100vh;
     align-items: center;
+    background-color: yellow;
 }
+
 
 .container {
     text-align: center;
@@ -27,7 +28,7 @@ body {
     z-index: -1;
     margin: 0;
     top: 50%;
-    transform: translate(-50%);
+    transform: translateY(-50%);
 }
 
 .progress-bar-front {
@@ -39,7 +40,7 @@ body {
     z-index: -1;
     margin: 0;
     top: 50%;
-    transform: translate(-50%);
+    transform: translateY(-50%);
 
 }
 
@@ -52,4 +53,10 @@ body {
     justify-content: center;
     align-items: center;
     border: 4px solid lightgrey;
+    color: lightgray;
+}
+
+.step.checked {
+    color: green;
+    border-color: green;
 }
