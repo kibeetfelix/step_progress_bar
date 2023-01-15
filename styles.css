@@ -85,3 +85,8 @@ body {
 .btn:active {
     transform: scale(0.97);
 }
+
+.btn:disabled {
+    background-color: lightgrey;
+
+}
