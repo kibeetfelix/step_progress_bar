@@ -90,3 +90,9 @@ body {
     background-color: lightgrey;
 
 }
+
+@media (max-width:500px) {
+    .progress-container {
+        width: 90vw;
+    }
+}
