@@ -38,4 +38,8 @@ function updatestepprogress() {
     const checkedNumber = document.querySelectorAll(".checked")
 
     progressEl.style.width = ((checkedNumber.length - 1) / (stepsEl.length - 1)) * 100 + "%"
+
+    if (currentChecked === 1) {
+        prevEl.disabled = true;
+    }
 }

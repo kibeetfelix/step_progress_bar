@@ -60,6 +60,7 @@ body {
     color: green;
     border-color: green;
     transition: all .7s linear;
+    transition-delay: 0.3s;
 }
 
 .step.checked small {
