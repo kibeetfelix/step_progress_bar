@@ -43,5 +43,8 @@ function updatestepprogress() {
         prevEl.disabled = true;
     } else if (currentChecked === stepsEl.length) {
         nextEl.disabled = true;
+    } else {
+        prevEl.disabled = false;
+        nextEl.disabled = false;
     }
 }
