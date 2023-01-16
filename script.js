@@ -1,7 +1,12 @@
-const nextEl = document.getElementById("next")
+const nextEl = document.getElementById("next");
 
-let currentchecked = 1;
+const stepsEl = document.querySelectorAll(".step");
+
+console.log(stepsEl);
+
+let currentChecked = 1;
 
 nextEl.addEventListener("click", () => {
-    currentchecked++;
-})
+    currentChecked++;
+    console.log(currentChecked);
+});
