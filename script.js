@@ -1,4 +1,7 @@
 const nextEl = document.getElementById("next");
+const prevEl = document.getElementById("prev");
+
+const progressEl = document.querySelector(".progress-bar-front")
 
 const stepsEl = document.querySelectorAll(".step");
 
@@ -31,4 +34,7 @@ function updatestepprogress() {
             stepEl.innerHTML = `<i class="fas fa-times"></i>`;
         }
     });
+
+    const checkedNumber = document.querySelectorAll(".checked")
+    progressEl.style.width = "100%"
 }
