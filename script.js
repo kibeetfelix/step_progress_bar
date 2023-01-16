@@ -13,6 +13,13 @@ nextEl.addEventListener("click", () => {
     }
     updatestepprogress();
 });
+prevEl.addEventListener("click", () => {
+    currentChecked--;
+    if (currentChecked < 1) {
+        currentChecked = 1;
+    }
+    updatestepprogress();
+});
 
 function updatestepprogress() {
     stepsEl.forEach((stepEl, idx) =>){
