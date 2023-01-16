@@ -41,5 +41,7 @@ function updatestepprogress() {
 
     if (currentChecked === 1) {
         prevEl.disabled = true;
+    } else if (currentChecked === stepsEl.length) {
+        nextEl.disabled = true;
     }
 }
