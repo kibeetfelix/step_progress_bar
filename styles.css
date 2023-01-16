@@ -59,6 +59,7 @@ body {
 .step.checked {
     color: green;
     border-color: green;
+    transition: all .7s linear;
 }
 
 .step.checked small {
