@@ -41,7 +41,7 @@ body {
     margin: 0;
     top: 50%;
     transform: translateY(-50%);
-
+    transition: .4s linear width;
 }
 
 .step {
